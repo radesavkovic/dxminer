@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Museo";
+  src: url("./assets/MuseoSans_500.otf") format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: 'Museo' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiList-root {
+  background-color: #e3e3e3 !important;
+}
+.MuiDialogTitle-root {
+  background-color: #bcbcbc !important;
+  color: 'white' !important;
+}
+.MuiButton-containedPrimary {
+  background-color: #bcbcbc !important;
+}
+
+.MuiPaper-root {
+  background-color: transparent !important;
+}
+
+.MuiBox-root {
+  padding-top: 0px !important;
+  overflow: hidden !important;
+}
+
+.fact {
+  background-color: rgba(255, 255, 255, 0.807) !important;
+}
+
+.custom-button {
+  background-color: #000000 !important;
+  font-size: 1.5rem !important;
+  color: white !important;
+  border-radius: 10px !important;
+  display: block !important;
+  font-family: 'Museo' !important;
+}
+
+.quit-button {
+  background-color: #e3e3e3 !important;
+  font-size: 28px !important;
+  color: black !important;
+  border-radius: 10px !important;
+  display: block !important;
+  width: 60% !important;
+  margin-left: 20% !important;
+  font-family: 'Museo' !important;
+}
+
+.MuiPaper-rounded {
+  border-radius: 20px !important;
+}
+.MuiButton-root {
+  text-transform: none !important;
+}
+/*root #fff9e7*/
+.css-8apw0y {
+  background-color: white !important;
+}
+.museo-font {
+  font-family: 'Museo' !important;
+}
+.scrollbox::-webkit-scrollbar {
+  display: none;
+}
+.MuiButton-label {
+  font-family: 'Museo' !important;
+}
